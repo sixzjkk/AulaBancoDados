@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-body{
+  body{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -9,7 +9,7 @@ body{
     margin: 0;
     padding: 0;
 }
-body {
+  body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -19,6 +19,7 @@ body {
   h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #1ED760;
   }
   
   .container {
@@ -28,7 +29,7 @@ body {
     justify-content: center;
     padding: 20px;
     min-height: 100vh;
-    background-color: #f7f7f7;
+    background-color: #121212;
   }
   
   .form-container {
@@ -52,7 +53,7 @@ body {
   
   .form-container button {
     padding: 10px;
-    background-color: #007bff;
+    background-color: #3AE477;
     color: white;
     border: none;
     border-radius: 4px;
@@ -62,7 +63,7 @@ body {
   }
   
   .form-container button:hover {
-    background-color: #0056b3;
+    background-color: #3AE477;
   }
   
   .table-container {
@@ -149,8 +150,8 @@ body {
     justify-content: center;
     width: 200px;
     height: 200px;
-    background-color: #409706b7;
-    color: white;
+    background-color: #1ED760;
+    color: #121212;
     border-radius: 8px;
     text-decoration: none;
     font-size: 18px;
@@ -160,5 +161,7 @@ body {
   }
   
   .card:hover {
-    background-color: #0056b3;
+    background-color: #3AE477;
+    transition: 0.3s;
+    transform:scale(1.02);
   }
