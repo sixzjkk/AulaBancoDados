@@ -37,7 +37,7 @@
     justify-content: center;
     padding: 20px;
     min-height: 100vh;
-    background-color: #121212;
+    background-image: linear-gradient(#00311c ,#121212, #121212);
   }
   
   .form-container {
@@ -153,6 +153,7 @@
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 30px;
   }
   
   .card {
