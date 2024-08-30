@@ -10,7 +10,7 @@ export default function Home() {
                     <div>Registrar Música</div>
                 </Link>
                 <Link to="/musica" className="card">
-                    <div>Lista de Música</div>
+                    <div>Lista de Músicas</div>
                 </Link>
                 <Link to="/musica/alterar" className="card">
                     <div>Editar Música</div>
